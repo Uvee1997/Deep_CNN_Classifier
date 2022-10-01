@@ -13,3 +13,9 @@
 9. run tox for testing your package
 10. Update the dvc.yaml
 11. run "dvc repro" for running all the stages in pipeline
+
+
+MLFLOW_TRACKING_URI=https://dagshub.com/Uvee1997/Deep_CNN_Classifier.mlflow \
+MLFLOW_TRACKING_USERNAME=Uvee1997 \
+MLFLOW_TRACKING_PASSWORD=527e9430067140fbaab3c3071adc32b9ea77e367 \
+python script.py

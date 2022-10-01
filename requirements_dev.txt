@@ -10,10 +10,10 @@ pyYAML
 tqdm
 ensure==1.0.2
 joblib
-types - pyYAML
+types-PyYAML
+scipy
+mlflow==1.29.0
 -e .
-
-
 
 ## Dev requirements
 pytest==7.1.3
@@ -21,4 +21,3 @@ tox==3.25.1
 black==22.8.0
 flake8==5.0.4
 mypy==0.971
-scipy
